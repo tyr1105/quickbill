@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tyr1105.github.io/sitemap.xml
+
+# QuickBill - 免费发票生成器
+# RedCover - 小红书封面制作
+# WriteBoom - 文案生成
+# PicTool - 图片工具箱
+# PDFKit - PDF工具
+# QRGen - 二维码生成器
+# ResumeCraft - 简历制作
+# ShotPro - 截图美化
+# DevKit-Tools - 开发工具箱
+# AI-Tools-Box - AI工具集
+
