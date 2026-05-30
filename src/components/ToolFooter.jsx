@@ -8,6 +8,7 @@ const tools = [
   { name: 'ResumeCraft', url: '/resumecraft/', desc: '简历制作' },
   { name: 'ShotPro', url: '/shotpro/', desc: '截图美化' },
   { name: 'DevKit', url: '/devkit-tools/', desc: '开发工具' },
+  { name: 'AI-Tools', url: '/ai-tools-box/', desc: 'AI工具集' },
 ]
 
 export default function ToolFooter() {
@@ -28,7 +29,7 @@ export default function ToolFooter() {
           ))}
         </div>
         <div className="text-center mt-8 text-xs text-gray-600">
-          © 2025 QuickBill · 免费在线发票生成器 · 数据不上传服务器
+          © 2025-2026 QuickBill · 免费在线发票生成器 · 数据不上传服务器
         </div>
       </div>
     </footer>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  width: 1200px; height: 630px; 
+  font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; position: relative;
+}
+.grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(59,130,246,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.05) 1px, transparent 1px); background-size: 40px 40px; }
+.glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%); top: -200px; right: -100px; }
+.glow2 { position: absolute; width: 500px; height: 500px; background: radial-gradient(circle, rgba(16,185,129,0.1) 0%, transparent 70%); bottom: -200px; left: -100px; }
+.content { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 60px; }
+.badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(59,130,246,0.15); border: 1px solid rgba(59,130,246,0.3); border-radius: 100px; padding: 8px 20px; margin-bottom: 30px; color: #60a5fa; font-size: 16px; font-weight: 500; }
+.badge-dot { width: 8px; height: 8px; border-radius: 50%; background: #10b981; }
+.icon { width: 80px; height: 80px; margin-bottom: 24px; background: linear-gradient(135deg, #3b82f6, #10b981); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 40px; box-shadow: 0 8px 32px rgba(59,130,246,0.3); }
+h1 { font-size: 56px; font-weight: 800; color: #ffffff; letter-spacing: -1px; margin-bottom: 16px; background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.subtitle { font-size: 24px; color: #94a3b8; font-weight: 400; margin-bottom: 32px; max-width: 700px; line-height: 1.5; }
+.features { display: flex; gap: 24px; margin-bottom: 40px; }
+.feature { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 12px 20px; color: #e2e8f0; font-size: 15px; font-weight: 500; }
+.cta { background: linear-gradient(135deg, #3b82f6, #10b981); color: white; font-size: 18px; font-weight: 600; padding: 14px 40px; border-radius: 12px; letter-spacing: 0.5px; }
+.url { color: #64748b; font-size: 14px; margin-top: 16px; }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="glow"></div>
+  <div class="glow2"></div>
+  <div class="content">
+    <div class="badge"><span class="badge-dot"></span> 100% 免费 · 无需注册 · 隐私安全</div>
+    <div class="icon">🧾</div>
+    <h1>QuickBill 发票生成器</h1>
+    <p class="subtitle">免费在线制作专业发票 · 支持多币种多模板 · 一键导出高清PDF</p>
+    <div class="features">
+      <div class="feature">🌍 多币种</div>
+      <div class="feature">🎨 专业模板</div>
+      <div class="feature">🔒 本地处理</div>
+      <div class="feature">📄 导出PDF</div>
+    </div>
+    <div class="cta">立即使用 →</div>
+    <div class="url">tyr1105.github.io/quickbill</div>
+  </div>
+</body>
+</html>
