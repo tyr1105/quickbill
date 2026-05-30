@@ -1,0 +1,17 @@
+export const currencies = [
+  { code: 'CNY', symbol: '¥', name: '人民币', locale: 'zh-CN' },
+  { code: 'USD', symbol: '$', name: '美元', locale: 'en-US' },
+  { code: 'EUR', symbol: '€', name: '欧元', locale: 'de-DE' },
+  { code: 'GBP', symbol: '£', name: '英镑', locale: 'en-GB' },
+  { code: 'JPY', symbol: '¥', name: '日元', locale: 'ja-JP' },
+  { code: 'HKD', symbol: 'HK$', name: '港币', locale: 'zh-HK' },
+  { code: 'KRW', symbol: '₩', name: '韩元', locale: 'ko-KR' },
+  { code: 'SGD', symbol: 'S$', name: '新加坡元', locale: 'en-SG' },
+  { code: 'AUD', symbol: 'A$', name: '澳元', locale: 'en-AU' },
+  { code: 'CAD', symbol: 'C$', name: '加元', locale: 'en-CA' },
+  { code: 'CHF', symbol: 'CHF', name: '瑞士法郎', locale: 'de-CH' },
+  { code: 'INR', symbol: '₹', name: '印度卢比', locale: 'en-IN' },
+  { code: 'TWD', symbol: 'NT$', name: '新台币', locale: 'zh-TW' },
+  { code: 'THB', symbol: '฿', name: '泰铢', locale: 'th-TH' },
+  { code: 'MYR', symbol: 'RM', name: '马来西亚令吉', locale: 'ms-MY' },
+]
